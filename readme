@@ -1,0 +1,10 @@
+用这个项目来运行llama.cpp
+
+
+1. 下载https://hf-mirror.com/LinkSoul/Chinese-Llama-2-7b-ggml/blob/main/Chinese-Llama-2-7b.ggmlv3.q8_0.bin
+2. 放到 当前 一个soulteary里面.
+3.docker pull soulteary/llama2:runtime
+  docker run --ulimit memlock=-1 --ulimit stack=67108864 --rm -it -v `pwd`/soulteary:/app/soulteary soulteary/llama2:runtime bash
+  ./main -m /app/soulteary/Chinese-Llama-2-7b.ggmlv3.q8_0.bin -n 256 --repeat_penalty 1.0 --color -i -r "User:" -f prompts/chat-with-bob.txt
+
+  

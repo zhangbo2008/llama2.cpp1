@@ -1,0 +1,20 @@
+IMAGE          CREATED        CREATED BY                                      SIZE      COMMENT
+4a7064fbfd2d   5 months ago   WORKDIR /app/llama.cpp/                         0B        buildkit.dockerfile.v0
+<missing>      5 months ago   COPY /app/llama.cpp/prompts /app/llama.cpp/p…   7.16kB    buildkit.dockerfile.v0
+<missing>      5 months ago   COPY /app/llama.cpp/main /app/llama.cpp/main…   539kB     buildkit.dockerfile.v0
+<missing>      5 months ago   COPY /app/llama.cpp/LICENSE /app/llama.cpp/L…   1.07kB    buildkit.dockerfile.v0
+<missing>      6 months ago   CMD ["python3"]                                 0B        buildkit.dockerfile.v0
+<missing>      6 months ago   RUN /bin/sh -c set -eux;   savedAptMark="$(a…   12.3MB    buildkit.dockerfile.v0
+<missing>      6 months ago   ENV PYTHON_GET_PIP_SHA256=96461deced5c2a487d…   0B        buildkit.dockerfile.v0
+<missing>      6 months ago   ENV PYTHON_GET_PIP_URL=https://github.com/py…   0B        buildkit.dockerfile.v0
+<missing>      6 months ago   ENV PYTHON_SETUPTOOLS_VERSION=65.5.1            0B        buildkit.dockerfile.v0
+<missing>      6 months ago   ENV PYTHON_PIP_VERSION=23.1.2                   0B        buildkit.dockerfile.v0
+<missing>      6 months ago   RUN /bin/sh -c set -eux;  for src in idle3 p…   32B       buildkit.dockerfile.v0
+<missing>      6 months ago   RUN /bin/sh -c set -eux;   savedAptMark="$(a…   31.9MB    buildkit.dockerfile.v0
+<missing>      6 months ago   ENV PYTHON_VERSION=3.11.4                       0B        buildkit.dockerfile.v0
+<missing>      6 months ago   ENV GPG_KEY=A035C8C19219BA821ECEA86B64E628F8…   0B        buildkit.dockerfile.v0
+<missing>      6 months ago   RUN /bin/sh -c set -eux;  apt-get update;  a…   3.11MB    buildkit.dockerfile.v0
+<missing>      6 months ago   ENV LANG=C.UTF-8                                0B        buildkit.dockerfile.v0
+<missing>      6 months ago   ENV PATH=/usr/local/bin:/usr/local/sbin:/usr…   0B        buildkit.dockerfile.v0
+<missing>      6 months ago   /bin/sh -c #(nop)  CMD ["bash"]                 0B        
+<missing>      6 months ago   /bin/sh -c #(nop) ADD file:4a063d4e089ef10c6…   80.5MB    
